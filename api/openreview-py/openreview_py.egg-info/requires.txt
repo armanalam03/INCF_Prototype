@@ -1,0 +1,15 @@
+pycryptodome
+requests>=2.18.4
+future
+tqdm
+Deprecated
+pylatexenc
+tld>=0.12
+setuptools==65.5.1
+pyjwt
+
+[docs]
+nbsphinx
+sphinx
+sphinx_rtd_theme
+nbformat
