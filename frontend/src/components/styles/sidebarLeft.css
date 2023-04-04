@@ -1,0 +1,30 @@
+.sidebar-left{
+    width: 30%;
+    height: 92.5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 1% 1%;
+}
+.sidebar-left>span{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+.community-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding-left: 7%; */
+}
+.community{
+    font-weight: 500;
+    padding: 5%;
+    border-radius: 10px 0px 0px 10px;
+}
+.community:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.community.selected{
+    background-color: white;
+}

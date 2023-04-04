@@ -1,0 +1,57 @@
+.note-page-container{
+    width: 100%;
+    height: 100%;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-detail-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+    background-color: rgb(229,231,242);
+}
+
+.note-page-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.authors{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.keywords{
+    margin-bottom: 20px;
+}
+
+.note-abstract{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.comment-btn-div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.comment-btn{
+    padding: 5px 8px;
+    background-color: rgb(33, 33, 95);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.comment-btn:hover{
+    background-color: rgb(44, 44, 146);
+}
+
